@@ -1,16 +1,7 @@
 # CSPB3202_HW5_Kaggle
 Repository for cspb 3202 hw5 kaggle:
 
-File structure used in the scripts:
-
-data:
-    - train:
-            - .tif files
-    -test:
-          - tif files
-    -train_labels.csv
-    
-    -sample_submission.csv
+Download data from kaggle and rename the folder containg all the data as "data"
 
 trainer.py: Loads data, performs preprocessing on the images and trains the model. Change variables to change number of images used, valdiation split for testing.
 
